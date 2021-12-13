@@ -1,0 +1,172 @@
+<!DOCTYPE HTML>
+<html>
+		<title>WEB222 Final Assessment</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="main.css" />
+	</head>
+
+	<body>
+
+		<!-- Home Page -->
+			<article id="top" class="wrapper style2">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-5-large col-12-medium">
+							<img class="image" src="Amaan.jpeg" alt="Author's image"/>
+						</div>
+						<div>
+							<header>
+								<h1><strong>MOHAMMAD AMAAN</strong></h1>
+							</header>
+							<p> Front-end Developer, IOS and Android Developer</p>					
+								<a target="_blank" href="https://www.linkedin.com/in/mohammad-amaan-10" class="button">Resume</a>
+								<a href="#1" class="button">Contact Me</a>
+
+						</div>
+					</div>
+				</div>
+			</article>
+
+		<!-- About -->
+			<article class="wrapper style2">
+				<div class="col-5-large">
+					<header>
+						<h2 styel>ABOUT</h2>
+						<p> I am a 19 year-old junior web developer with an interest in android and IOS development.
+							I started my programming journey when I was in grade 8th. 
+							Java was the first language that I learnt in high school. 
+							It is ironical that the field which I am so passionate about today was something I used to hate when I started.
+							I just couldn't grasp the different concepts of programming be it simple loops or data structures such as arrays.
+							For the first year, I struggled hard to pass my Computer Science class. 
+							However, I believe what you need is a bit of spark to ignite the passion in you and that is what happened with me. 
+							I started learning HTML, CSS and a bit of JavaScript. 
+							Since then, I have never looked back and enjoyed each and every minute of my life learning these amazing platforms. 
+							It was then that I knew I wanted to become a web developer in future. 
+							</p>
+							<hr size="8" width="100%" color="red">
+					</header>
+					</div>
+					<div class="container">
+						<header>
+							<h2 style1> EDUCATION </h1>
+						</header>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon featured fa-comments"></span>
+								<h3>Advanced Diploma</h3>
+								<p>Computer Programming and Analysis - Seneca College of Applied Arts and Technology
+									<p>Skills - HTML, CSS, JavaScript, C, C++, Linux, SQL 
+									<p>Expected Graduation - 2023
+									<p>Under the supervision of Professor Sharmin Ahmed
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon solid featured fa-camera-retro"></span>
+								<h3>High School</h3>
+								<p>Mathematics, General Science, Computer Science - St. Stephen's High School	
+									<p>G.P.A - 4.0
+									<p>Year of Graduation - 2020
+							</section>
+						</div>
+					</div>
+				</div>
+			</article>
+
+		<!-- Contact -->
+			<article id="1" class="wrapper style4">
+				<div class="container medium">
+					<header>
+						<h2> Feel free to contact me! </h2>
+					</header>
+					<div class="row">
+						<div class="col-12">
+							<form method="post" action="https://httpbin.org/post">
+								<div class="row">
+									<div class="col-6 col-12-small">
+										<input type="text" name="name" id="name" required placeholder="Name" />
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="text" name="email" id="email" required placeholder="Email" />
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="text" name="address" id="address" required placeholder="Address" />
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="text" name="postalcode" id="postalcode" required pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]" placeholder="Postal Code" />
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="text" name="city" id="city" list="CanadianCities" required placeholder="City"  />
+										<datalist id="CanadianCities">
+											<option value = "Toronto">
+											<option value = "Vancouver">
+											<option value = "Ottawa">
+											<option value = "Montreal">
+											<option value = "Calgary">
+											<option value = "Halifax">
+											<option value = "Regina">
+											<option value = "Quebec">
+											</datalist>			
+									</div>
+                                            <div class="col-12">
+											<p> Select the convenient option: </p>
+
+											<div>
+											<input type="radio" id="question" name="type" value="1">
+											<label for="question">Question</label>
+											</div>
+
+											<div>
+											<input type="radio" id="hire" name="type" value="2">
+											<label for="hire">Hiring</label>
+											</div>
+										</div>
+										<div class="col-6 col-12-small">
+											<input type="number" name="rate" id="rate" required placeholder="Hourly Rate" />
+										</div>
+											<script type="text/javascript">
+
+												function check() 
+												{
+													if (document.getElementById('hire').checked) 
+													{
+														document.getElementById('rate').style.visibility = 'visible';
+													} else 
+													{
+														document.getElementById('rate').style.visibility = 'hidden';
+													}
+												}
+												</script>
+
+											<div>
+											<input type="radio" id="comment" name="type" value="3">
+											<label for="comment">Comment</label>
+											</div>
+											</div>
+											
+									<div class="col-12">
+										<textarea name="message" id="message" required placeholder="Message"></textarea>
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="hidden" name="info" id="info" value="Mohammad Amaan 141387209" />
+									</div>
+									<div class="col-12">
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" /></li>
+											<li><input type="reset" value="Clear Form" class="alt" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</div>
+						
+					<footer>
+						<ul id="copyright">
+							<li>&copy; Mohammad Amaan</li><li> WEB222 Final Assessment </li>
+						</ul>
+					</footer>
+				</div>
+			</article>
+	</body>
+</html>

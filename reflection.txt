@@ -1,0 +1,25 @@
+Name : Mohammad Amaan 
+SID: 141387209
+Section: NGG
+Email: mohammmad-amaan@myseneca.ca
+
+1. I used languages like HTML, CSS and JavaScript to build my webpage on a code editor called Visual Studio Code. I also used an extension called 'Live Server' for testing my code periodically. There were 3 files containing the HTML, CSS and JavaScript code respectively. These codes were linked together in the 'index.html' file which was the main file. I also imported fonts from the internet to beautify my webpage and make it look professional.
+
+2. I used a plethora of HTML form features in my webpage. This included input options for name, email, address, postal code, city, the message and the type of message. The format for email was strictly according to the email format having a '@'. The postal code was also coded in accordance with the Canadian format of postal codes using the 'required’ attribute. I also developed a drop down list of the most famous Canadian cities for the city part of the form. This was done using the 'datalist' attribute. Also, I gave 3 radio options for the user to select from in order to mark the type of message. Moreover, a text area was given for the users to type their messages. All these fields were required to fill out and it was done using the 'required' attribute.
+
+3. To make sure my forms were working according to the requirements, I used the 'Live Server' extension in Visual Studio Code to check my work live on the browser. This helped me keep track of all the changes which I made in the code. If I didn't like any aspect of my webpage or if there were bugs in my implementation, this testing method would help me a lot to solve them. I would change the code on my laptop screen and simultaneously look at the browser window on my monitor screen to see the changes.
+
+4. After completing this assignment, I have learned a lot about HTML forms and their implementation in a practical manner. To other web developers, I would advise them to first go through all the major attributes and components of HTML forms. This would allow them to know exactly which attribute to apply and where to use it in the code. Also, from this project, I learned about dedicating separate attention to the 3 parts of the code i.e. .html, .css and .js files. I started by completing small portions of all the files at once. After some time, I realized this wasn't the ideal way as it decreased my productivity and the will to continue. Instead, work on one file at a time and move on to the next part only when the first one is complete. 
+
+
+
+
+
+
+
+
+
+
+
+
+
